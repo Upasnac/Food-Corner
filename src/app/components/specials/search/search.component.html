@@ -1,0 +1,7 @@
+<div>
+    <input [(ngModel)]="searchTerm" type="text" placeholder="Search 2Ps ☺ Food Corner"
+     (ngModelChange)="search($event)"
+     [value]="searchTerm" />
+    <button (click)="search(searchTerm)">Search</button>
+  </div>
+  
